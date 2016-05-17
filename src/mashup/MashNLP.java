@@ -64,6 +64,7 @@ public class MashNLP {
                         .get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
                 int sentiment = RNNCoreAnnotations.getPredictedClass(tree);
                 String partText = sentence.toString();
+              
                 if (partText.length() > longest) {
                     mainSentiment = sentiment;
                     longest = partText.length();
