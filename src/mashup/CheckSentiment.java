@@ -27,12 +27,13 @@ public class CheckSentiment {
     mashupinput.add("mehnga");
     mashupinput.add("bakwaas");
     mashupinput.add("vdiaa");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
+    mashupinput.add("pasand");
+    mashupinput.add("acha");
+    mashupinput.add("kamal");
+    mashupinput.add("Bekaar");
+    mashupinput.add("Antimicrobial");
+    mashupinput.add("pehla");
+    
     
     
     
