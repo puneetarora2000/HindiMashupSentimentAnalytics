@@ -21,12 +21,12 @@ public class CheckSentiment {
     ArrayList<String>  mashupinput = new ArrayList<>();
     
     
-    mashupinput.add("Love");
-    mashupinput.add("Hate");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
-    mashupinput.add("Love");
+    mashupinput.add("jyada");
+    mashupinput.add("sirraa");
+    mashupinput.add("ghatiyyaa");
+    mashupinput.add("mehnga");
+    mashupinput.add("bakwaas");
+    mashupinput.add("vdiaa");
     mashupinput.add("Love");
     mashupinput.add("Love");
     mashupinput.add("Love");
