@@ -546,11 +546,17 @@ public class CheckSentiment {
     mashupinput.add("samsung badiyaa");
     mashupinput.add("samsung acha");
     mashupinput.add("iphone gud");
-    mashupinput.add("samsung siraa");
-    mashupinput.add("samsung awsum");
-    mashupinput.add("samsung vadiaa");
-    mashupinput.add("samsung badiyaa");
-    mashupinput.add("samsung acha");
+    mashupinput.add("iphone siraa");
+    mashupinput.add("iphone awsum");
+    mashupinput.add("iphone vadiaa");
+    mashupinput.add("iphone badiyaa");
+    mashupinput.add("iphone acha");
+    mashupinput.add("htc acha");
+    mashupinput.add("htc badiyaa");
+    mashupinput.add("htc siraa");
+    mashupinput.add("htc awsum");
+    mashupinput.add("htc gud");
+    mashupinput.add("htc vadiaa");
     
     
     
