@@ -496,6 +496,28 @@ public class CheckSentiment {
     mashupinput.add("appease");
     mashupinput.add("appeaser");
     mashupinput.add("appeasement");
+    mashupinput.add("appeasable");
+    mashupinput.add("appeasing");
+    mashupinput.add("aristocart");
+    mashupinput.add("pacify");
+    mashupinput.add("pacifier");
+    mashupinput.add("euphoria");
+    mashupinput.add("euphory");
+    mashupinput.add("euphorically");
+    mashupinput.add("blithe");
+    mashupinput.add("blithely");
+    mashupinput.add("gayy");
+    mashupinput.add("gayly");
+    mashupinput.add("happy");
+    mashupinput.add("happiness");
+    mashupinput.add("happily");
+    mashupinput.add("wellchosen");
+    mashupinput.add("felicitous");
+    mashupinput.add("felicitate");
+    mashupinput.add("congrats");
+    mashupinput.add("congo");
+    mashupinput.add("congratulation");
+    mashupinput.add("congratulate");
     
     
     
