@@ -474,6 +474,28 @@ public class CheckSentiment {
     mashupinput.add("cheerily");
     mashupinput.add("inspire");
     mashupinput.add("inspiring");
+    mashupinput.add("inspiringly");
+    mashupinput.add("inspiration");
+    mashupinput.add("inspirer");
+    mashupinput.add("inspiring");
+    mashupinput.add("invigorate");
+    mashupinput.add("invigorator");
+    mashupinput.add("liven");
+    mashupinput.add("enliven");
+    mashupinput.add("enlivener");
+    mashupinput.add("enlivenment");
+    mashupinput.add("enlivening");
+    mashupinput.add("enlivened");
+    mashupinput.add("reinvigorate");
+    mashupinput.add("reinvigorated");
+    mashupinput.add("reinvigoration");
+    mashupinput.add("revolution");
+    mashupinput.add("revolutionism");
+    mashupinput.add("revolutionist");
+    mashupinput.add("revolutionary");
+    mashupinput.add("appease");
+    mashupinput.add("appeaser");
+    mashupinput.add("appeasement");
     
     
     
