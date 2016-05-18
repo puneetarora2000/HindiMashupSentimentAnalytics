@@ -302,7 +302,24 @@ public class CheckSentiment {
     mashupinput.add("sublime");
     mashupinput.add("sublime");
     mashupinput.add("sublime");
-    mashupinput.add("sublime");mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
+    mashupinput.add("sublime");
     
     
     
