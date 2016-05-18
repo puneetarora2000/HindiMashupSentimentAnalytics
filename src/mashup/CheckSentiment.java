@@ -518,7 +518,27 @@ public class CheckSentiment {
     mashupinput.add("congo");
     mashupinput.add("congratulation");
     mashupinput.add("congratulate");
-    
+    mashupinput.add("jubiliant");
+    mashupinput.add("jubilance");
+    mashupinput.add("jubilancy");
+    mashupinput.add("jubilate");
+    mashupinput.add("jubilantly");
+    mashupinput.add("jubilation");
+    mashupinput.add("jubliee");
+    mashupinput.add("mirthful");
+    mashupinput.add("mirth");
+    mashupinput.add("mirthfully");
+    mashupinput.add("funny");
+    mashupinput.add("funnily");
+    mashupinput.add("funniness");
+    mashupinput.add("funniness");
+    mashupinput.add("yahoo");
+    mashupinput.add("hoorah");
+    mashupinput.add("hooray");
+    mashupinput.add("hurray");
+    mashupinput.add("hurrah");
+    mashupinput.add("whoopee");
+    mashupinput.add("yipee");
     
     
     return mashupinput;
