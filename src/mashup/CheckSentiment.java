@@ -981,25 +981,35 @@ public class CheckSentiment {
     } 
     //----------end 
     
-    
-    public static void  runSentimentAnalysis(){
-    
+     public static void  runSentimentAnalysis() throws IOException{
+            CSVWriter writer  =null;
+        String[] sentimentText = { "Very Negative","Negative", "Neutral", "Positive", "Very Positive"};
+        //String[] sentimentText = { "Very Positive","Positive", "Neutral", "Negative", "Very Negative"};
+        //String[] sentimentText = { "Positive", "Neutral", "Negative"};
+        
         ArrayList<String>  mashupinput = CheckSentiment.MashupWords();
         String topic = "";
         Iterator itr = mashupinput.iterator();
+        try {            
+              writer = new CSVWriter(new FileWriter(Common.outputfile));
+        } catch (IOException ex) {
+            Logger.getLogger(CheckSentiment.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
          while(itr.hasNext()){
                 System.out.println(itr.next());
                 topic = itr.next().toString();
-                ArrayList<String> tweets = MashTweetManager.getTweets(topic);
+              
+                ArrayList<String> tweetsData = MashTweetManager.getTweets(topic);
                 MashNLP.init();
                 
-                for(String tweet : tweets) {
+                for(String tweet : tweetsData) {
+                    int score = MashNLP.findSentiment(tweet.trim());
+                    System.out.println(sentimentText[score]);
+                       writer.writeNext(tweet + ","+score);
+                       System.out.println(tweet + " :  Sentiment  is  : " +sentimentText[score] );
             
-            
-                       System.out.println(tweet + " :  Sentiment  Score is : " + MashNLP.findSentiment(tweet));
-            
-            
+                       
             
                 }
                 
@@ -1007,9 +1017,13 @@ public class CheckSentiment {
                 
    
         }
+         
+         writer.close();
     
     
-    } //end of function 
+    }  
+     
+      //end of function 
     
 
     public static void main(String args[]){
