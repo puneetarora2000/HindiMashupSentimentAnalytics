@@ -862,16 +862,31 @@ public class CheckSentiment {
     mashupinput.add("bumbler");
     mashupinput.add("bungled");
     mashupinput.add("bungler");
+    mashupinput.add("butcher");
+    mashupinput.add("cockered");
+    mashupinput.add("coddled");
+    mashupinput.add("coddle");
+    mashupinput.add("corrupt");
+    mashupinput.add("cosseted");
+    mashupinput.add("deflowered");
+    mashupinput.add("despoil");
+    mashupinput.add("despoiler");
+    mashupinput.add("fumble");
+    mashupinput.add("fumbler");
+    mashupinput.add("goofed up");
+    mashupinput.add("impaired");
+    mashupinput.add("itched");
+    mashupinput.add("itchy");
+    mashupinput.add("rubbed");
+    mashupinput.add("scracthed");
+    mashupinput.add("loused up");
+    mashupinput.add("marred");
+    mashupinput.add("messy");
+    mashupinput.add("mishandled");
+    mashupinput.add("mucked up");
+    mashupinput.add("muffed");
+    mashupinput.add("muff");
     mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    
-    
     
     
     return mashupinput;
