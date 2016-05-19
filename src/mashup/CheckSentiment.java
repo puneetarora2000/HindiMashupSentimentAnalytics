@@ -886,7 +886,41 @@ public class CheckSentiment {
     mashupinput.add("mucked up");
     mashupinput.add("muffed");
     mashupinput.add("muff");
+    mashupinput.add("pamper");
+    mashupinput.add("plunder");
+    mashupinput.add("pollutant");
+    mashupinput.add("pollution");
+    mashupinput.add("polluter");
+    mashupinput.add("queered");
+    mashupinput.add("queerish");
+    mashupinput.add("odd");
+    mashupinput.add("violate");
+    mashupinput.add("ravish");
+    mashupinput.add("screw");
+    mashupinput.add("violent");
+    mashupinput.add("violated");
+    mashupinput.add("tearing");
+    mashupinput.add("charging");
+    mashupinput.add("burden");
+    mashupinput.add("vitiate");
+    mashupinput.add("vitiation");
+    mashupinput.add("sucked");
+    mashupinput.add("suck");
+    mashupinput.add("elusive");
+    mashupinput.add("goon");
+    mashupinput.add("hard");
+    mashupinput.add("hardish");
+    mashupinput.add("backbreaking");
+    mashupinput.add("difficult");
+    mashupinput.add("unmanageable");
+    mashupinput.add("hoodlum");
+    mashupinput.add("knot");
+    mashupinput.add("knotty");
     mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    
     
     
     return mashupinput;
