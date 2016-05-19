@@ -791,6 +791,19 @@ public class CheckSentiment {
     mashupinput.add("gloom");
     mashupinput.add("gloomful");
     mashupinput.add("gloominess");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    mashupinput.add("");
+    
     
     
     
