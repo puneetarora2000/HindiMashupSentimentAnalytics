@@ -6,6 +6,7 @@
 
 package mashup;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -16,6 +17,7 @@ import twitter4j.Twitter;
 import twitter4j.TwitterException;
 import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
+import mashup.HinghlishStopWords;
 
 
 /**
@@ -24,7 +26,7 @@ import twitter4j.conf.ConfigurationBuilder;
  */
 public class MashTweetManager {
 
-    public static ArrayList<String> getTweets(String topic) {
+    public static ArrayList<String> getTweets(String topic) throws IOException {
 
         
         
@@ -70,9 +72,10 @@ public class MashTweetManager {
                 List<Status> tweets = result.getTweets();
             
                 for (Status tweet : tweets) {
-                    
-                     
-                // Remove Special Characters 
+                    String data = tweet.getText().replaceAll("[^\\p{L}\\p{Z}]","");
+            
+                    HinghlishStopWords.removeStopWords(data.trim());
+                // Remove Special... Characters 
                     // Remove stop words 
                           tweetList.add(tweet.getText().replaceAll("[^\\p{L}\\p{Z}]",""));
                 
