@@ -715,23 +715,24 @@ public class CheckSentiment {
     mashupinput.add("furious");
     mashupinput.add("furiously");
     mashupinput.add("fury");
+    mashupinput.add("tempest");
+    mashupinput.add("tempestous");
+    mashupinput.add("tempest");
+    mashupinput.add("tempestuously");
+    mashupinput.add("speculative");
+    mashupinput.add("speculator");
+    mashupinput.add("spoiled");
+    mashupinput.add("spoil");
+    mashupinput.add("regret");
+    mashupinput.add("regretful");
+    mashupinput.add("sorrow");
+    mashupinput.add("sorrowful");
+    mashupinput.add("repent");
+    mashupinput.add("repentance");
     mashupinput.add("");
     mashupinput.add("");
     mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
-    mashupinput.add("");
+    
     
     
     return mashupinput;
