@@ -52,19 +52,26 @@ public class MashNLP {
      * @return 
      */
     
+    
+    
+    
     public static int findSentiment(String tweet) {
 
         int mainSentiment = 0;
-        if (tweet != null && tweet.length() > 0) {
+        
+        try{
+        
+         if (tweet != null && tweet.length() > 0) {
             int longest = 0;
             Annotation annotation = pipeline.process(tweet);
+          
             for (CoreMap sentence : annotation
                     .get(CoreAnnotations.SentencesAnnotation.class)) {
                 Tree tree = sentence
                         .get(SentimentCoreAnnotations.SentimentAnnotatedTree.class);
                 int sentiment = RNNCoreAnnotations.getPredictedClass(tree);
                 String partText = sentence.toString();
-              
+                System.out.println(partText);
                 if (partText.length() > longest) {
                     mainSentiment = sentiment;
                     longest = partText.length();
@@ -72,6 +79,21 @@ public class MashNLP {
 
             }
         }
+       
+        
+        
+        }catch(Exception e ){
+            
+           
+        }
+        
+       
+        
+        
+       if (mainSentiment == 2 || mainSentiment > 4 || mainSentiment < 0) {
+            return 0;
+        }else {
         return mainSentiment;
+       }
     }
 }

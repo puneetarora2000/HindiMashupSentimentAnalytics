@@ -47,7 +47,7 @@ public class MashTweetManager {
         
         //  twitter.setOAuthAccessToken(null);
          
-         
+       
         
         ArrayList<String> tweetList = new ArrayList<>();
         
@@ -57,14 +57,28 @@ public class MashTweetManager {
         
         
         try {
-            Query query = new Query(topic);
-            QueryResult result;
+            Query query = new Query(topic.toLowerCase().trim());
+            
+            query.setCount(100);
+            query.setLocale("en");
+             query.setLang("en");
+        
+            QueryResult result = null;
+            
             do {
                 result = twitter.search(query);
                 List<Status> tweets = result.getTweets();
+            
                 for (Status tweet : tweets) {
-                    tweetList.add(tweet.getText());
+                    
+                     
+                // Remove Special Characters 
+                    // Remove stop words 
+                          tweetList.add(tweet.getText().replaceAll("[^\\p{L}\\p{Z}]",""));
+                
+                
                 }
+                
             } while ((query = result.nextQuery()) != null);
         } catch (TwitterException te) {
             te.printStackTrace();

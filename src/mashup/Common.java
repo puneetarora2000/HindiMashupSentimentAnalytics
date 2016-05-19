@@ -17,6 +17,9 @@ public class Common {
      * 
      * */
     
+    public final static String outputfile  = "d:\\data\\joutput.csv";
+    public final static String arfffile  = "d:\\data\\joutput.arff";
+    
     
     public final static String baseDir = "C:\\Users\\Ecologic\\Documents\\NetBeansProjects\\MashupSentimentAnalytics\\src\\mashup\\db\\";
     public final static String  badenghish = baseDir+"badenghish.csv";

@@ -33,8 +33,9 @@ public class NaiveUpdatableTweetClassifier {
     NaiveBayesUpdateable nb = new NaiveBayesUpdateable();
     nb.buildClassifier(structure);
     Instance current;
-    while ((current = loader.getNextInstance(structure)) != null)
-      nb.updateClassifier(current);
+    while ((current = loader.getNextInstance(structure)) != null) {
+        nb.updateClassifier(current);
+    }
 
     // output generated model
     System.out.println(nb);
