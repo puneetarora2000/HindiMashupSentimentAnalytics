@@ -17,8 +17,11 @@ import java.util.TreeMap;
  */
 public class HinghlishStopWords {
     
-    public static String[] stopwords ={"a", "about", "above", "across", "after", "afterwards", "again", "against", "all", "almost", 
-    "alone", "along", "already", "also","although","always","am","among", "amongst", "amoungst", "amount",  "an", "and", 
+    public static String[] stopwords ={"ki", "ka", "mein", "hai", "ye", "aur", "se", "hain", "ko", "par", "iss", "hota", "jo",
+    "kar", "ki", "gya", "ne", "bni", "toh", "diya", "hota", "iska", "tha", "karna", "tak", "vale", "sath", "baad", "aap", "tum", 
+    "kuch", "kisi", "sabse", "hone",    "the", "kai", "kai", "karein", "apne", "unke", "thi", "jaise", "abhi", "uss", "sakta",
+    "rakhe", "pe", "na", "aur", "tarah", "sabhi", "a", "about", "above", "across", "after", "afterwards", "again", "against", "all",
+    "almost", "alone", "along", "already", "also","although","always","am","among", "amongst", "amoungst", "amount",  "an", "and", 
     "another", "any","anyhow","anyone","anything","anyway", "anywhere", "are", "around", "as",  "at", "back","be","became", 
     "because","become","becomes", "becoming", "been", "before", "beforehand", "behind", "being", "below", "beside", "besides", 
     "between", "beyond", "bill", "both", "bottom","but", "by", "call", "can", "cannot", "cant", "co", "con", "could", "couldnt",
