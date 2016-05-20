@@ -33,10 +33,10 @@ public class Common {
      * 
      * */
     
-    public final static String  ConsumerKey = "fXGZ5z8OVpQdFCykmhttoPwZt";
-    public final static String  ConsumerSecret = "ShM7WiiShNEkliWedxbPlI1bas1ftMYi4ky5Q4TtOP6aoKuKhI";
-    public final static String  AccessToken = "38907556-o5Azc3OKAh847OeeBjDNYCfu2SzbAuQPuHVcIFVz2";
-    public final static String  AccessTokenSecret = "0WKlgMMSBJkFWjoLOrqwSgGPlhMJjH5tqR625nNVWotPW";
+    public final static String  ConsumerKey = "x";
+    public final static String  ConsumerSecret = "x";
+    public final static String  AccessToken = "x-x";
+    public final static String  AccessTokenSecret = "x";
     
     public final static String MyPropFile = "C:\\Users\\Ecologic\\Documents\\NetBeansProjects\\MashupSentimentAnalytics\\src\\mashup\\MyPropFile.properties";
     /**  
