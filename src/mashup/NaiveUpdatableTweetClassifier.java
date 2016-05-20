@@ -4,6 +4,9 @@ package mashup;
 import weka.core.Instances;
 import weka.core.converters.ArffLoader;
 import weka.classifiers.bayes.NaiveBayesUpdateable;
+import java.util.Random;
+import weka.classifiers.Evaluation;
+import static weka.core.Instances.test;
 
 import java.io.File;
 
