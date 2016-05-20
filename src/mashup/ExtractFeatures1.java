@@ -35,11 +35,17 @@ public class ExtractFeatures1 {
     
  
  Properties props = new Properties();
+ 
+ //annotation : what it is ? 
+ //tokenize :parts/words  of Tweets
+ //Pos : POS taggers :Parts of Speach 
+ //lemma X and  Y a subsidiary or intermediate theorem in an argument or proof.
+ //dcoref coreference resolution 
 props.put("annotators", "tokenize, ssplit, pos, lemma, ner, parse, dcoref");
 StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
 
 // read some tweetpara in the tweetpara variable
-String tweetpara = "My 1st sentence. “Does it work for questions?” My third sentence.";
+String tweetpara = " Ajj shahrukh salman khan da phone aaya jeetu arora kol....movie trailer bht vadia laggeya....kehande k bollywood ki sabse best entry hai";
 
 // create an empty Annotation just with the given tweetpara
 Annotation document = new Annotation(tweetpara);
