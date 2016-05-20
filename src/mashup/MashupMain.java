@@ -21,7 +21,7 @@ public class MashupMain {
      */
     public static void main(String[] args) {
         try {
-            // TODO code application logic here
+            // For Reading the Mash Up Dicts
 
              Utility.ReadMashUpDictionaries(Common.goodenglish);
             Utility.ReadMashUpDictionaries(Common.goodhinglish);
