@@ -53,7 +53,7 @@ public class HinghlishStopWords {
     "discussion","tmus","diffrent.","layout","area.","thanks","thankyou","hello","bye","rise","fell","fall","psqft.","http://","km","miles"};
     private static String fixString;
 
-
+    //this is called by the Mashup Tweet Manager class 
     @SuppressWarnings("unchecked")
     public static String removeStopWords(String paragraph) throws IOException{
     Scanner paragraph1=new Scanner( paragraph );
