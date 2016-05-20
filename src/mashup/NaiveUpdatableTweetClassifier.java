@@ -39,5 +39,12 @@ public class NaiveUpdatableTweetClassifier {
 
     // output generated model
     System.out.println(nb);
+    
+    Evaluation eval = new Evaluation(structure);
+		eval.crossValidateModel(nb, structure, 10, new Random());
+		 
+		 Utility.prn(eval.toSummaryString()+eval.toMatrixString());
+    
+    
   }
 }
